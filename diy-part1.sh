@@ -8,6 +8,8 @@
 # Blog: https://p3terx.com
 #=============================================================
 
+echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
+
 # fw876/helloworld
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.defaultault
 
