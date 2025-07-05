@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build 360T7 OpenWrt-5.4
 
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-24.10
