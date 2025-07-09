@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: (GPL-2.0 OR MIT)
-
+// openwrt/target/linux/mediatek/dts
 /dts-v1/;
 #include "mt7981b-cudy-tr3000-v1.dtsi"
 
