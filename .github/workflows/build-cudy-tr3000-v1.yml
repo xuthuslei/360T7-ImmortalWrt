@@ -83,6 +83,8 @@ jobs:
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
+        mv filogic.mk openwrt/target/linux/mediatek/image/filogic.mk
+        mv mt7981b-cudy-tr3000-v1-512mb.dts openwrt/target/linux/mediatek/dts/mt7981b-cudy-tr3000-v1-512mb.dts
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
